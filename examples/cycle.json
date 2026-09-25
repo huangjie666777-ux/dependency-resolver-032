@@ -1,0 +1,11 @@
+{
+  "catalog": [
+    {"name": "alpha", "versions": [
+      {"version": "1.2.0", "dependencies": [{"name": "beta", "range": ">=2.0.0,<3.0.0"}]}
+    ]},
+    {"name": "beta", "versions": [
+      {"version": "2.1.0", "dependencies": [{"name": "alpha", "range": ">=1.0.0"}]}
+    ]}
+  ],
+  "requirements": [{"name": "alpha", "range": ">=1.0.0"}]
+}

@@ -1,0 +1,11 @@
+{
+  "catalog": [
+    {"name": "a", "versions": [
+      {"version": "1.0.0", "dependencies": [{"name": "b", "range": ">=1.0.0"}]}
+    ]},
+    {"name": "b", "versions": [
+      {"version": "1.0.0", "dependencies": [{"name": "a", "range": ">=1.0.0,<2.0.0"}]}
+    ]}
+  ],
+  "requirements": [{"name": "a", "range": "==1.0.0"}]
+}
